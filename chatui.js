@@ -73,5 +73,3 @@ $('body > div > div > div:nth-child(2) > span').click(function(){
 
 //-- Clear Chat
 resetChat();
-
-/

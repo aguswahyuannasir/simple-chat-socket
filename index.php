@@ -4,10 +4,11 @@
         <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="./chatui.css">
 
-        <script src="./chatui.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://localhost/simple-chat-socket/chatui.css">
 
+
+        <script src="http://localhost/simple-chat-socket/chatui.js"></script>
 
         <script>  
 
@@ -24,7 +25,6 @@
                 
                 $('#frmChat').on("submit",function(event){
                     event.preventDefault();
-
                     var messageJSON = {
                         chat_user_id: $('#chat-user').val(), // ini buat id
                         chat_user: $('#chat-user').val(), // ini buat name user
